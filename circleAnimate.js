@@ -51,9 +51,9 @@
 
   // RGBでカラーコード生成
   function colorCreateRGB () {
-    const r = Math.round(Math.random() *255)
-    const g = Math.round(Math.random() *255)
-    const b = Math.round(Math.random() *255)
+    const r = Math.round(Math.random() * 255)
+    const g = Math.round(Math.random() * 255)
+    const b = Math.round(Math.random() * 255)
     const color = `rgb(${r}, ${g}, ${b})`
 
     return color
